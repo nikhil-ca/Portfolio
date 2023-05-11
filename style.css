@@ -216,3 +216,85 @@ nav ul li a:hover::after{
 .work:hover .layer{
     height:100%;
 }
+
+/*-----------contact--------------*/
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color:grey;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: slategray;
+    display: inline-block;
+    transition: transform(00.5s);
+}
+
+.social-icons a:hover{
+    color:black;
+    transform: translateY(-5px);
+}
+
+.btn{
+    display: block;
+    margin-top: 50px;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color:slategrey;
+    
+}
+
+.btn:hover{
+    background: black;
+    color:white;
+
+}
+
+.btn.btn2{
+    display: inline-block;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border:0;
+    outline: none;
+    background: slategray;
+    padding: 15px;
+    margin:15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
