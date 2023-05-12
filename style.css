@@ -380,3 +380,9 @@ nav .fa-solid{
     }
 
 }
+
+#msg{
+    color:slategray;
+    margin-top: 10px;
+    display: block;
+}
